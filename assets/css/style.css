@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.red-box {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+
+.green-box {
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    position: absolute;
+    left: 75px;
+    top: 75px;    
+    z-index: 3;
+}
+
+.blue-box{
+    z-index: 2;
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    position: absolute;
+    left: 150px;
+    top: 150px;  
+}
